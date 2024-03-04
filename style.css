@@ -1,0 +1,48 @@
+.v-middle {
+    background-image: url('./img/bg-quote.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+body {
+    overflow-x: hidden;
+}
+.social-icons a i{
+color: white;
+background-color: #333;
+padding: 4px;
+border-radius: 50%;
+}
+.social-icons a i:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.social-icons h1 {
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons {
+    margin: 220px;
+}
+.portfolio {
+    background-color: #eee;
+}
+.portfolio img:hover {
+filter: drop-shadow(16px 16px 20px #333);
+}
+.numbers .col-md-3{
+background-color: #eee;
+
+}
+.numbers .icon {
+    padding: 20px;
+}
+.contact {
+    background-color: #eee;
+}
